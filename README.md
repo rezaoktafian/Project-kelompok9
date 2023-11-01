@@ -89,13 +89,9 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman login admin diminta untuk mengisi username dan password.| [Dashboard]![Rezaaaaaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/314c9092-259a-4974-a193-36d1b1d65f75) Dashboard|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| [Absensi Siswa]![rezaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/5a4dc411-39c0-4d62-adae-976d32cc2965) Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman warga dapat menginputkan data warga|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
+| [LOGIN]![rezz](https://github.com/rezaoktafian/Project-framework/assets/149589325/7e4dad93-cc28-4332-ac68-dcf025796fce) Pada halaman login admin diminta untuk mengisi username dan password.| [Dashboard]![Rezaaaaaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/314c9092-259a-4974-a193-36d1b1d65f75) Dashboard|
+| [Absensi Siswa]![rezaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/5a4dc411-39c0-4d62-adae-976d32cc2965) Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
+| [D]![rezz](https://github.com/rezaoktafian/Project-framework/assets/149589325/7e4dad93-cc28-4332-ac68-dcf025796fce) Pada Halaman dasboard menginputkan data absensi |
  
 **2.1.3 Antarmuka perangkat keras**
 
