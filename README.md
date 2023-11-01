@@ -1,24 +1,23 @@
 
 <html>
 <body>
-<div align="center"><h1> Software Requirements Spesification</h1></div>
+<div align="right"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center"><b>Version 1.7 </b><br>
-<p align="center">30 Oktober 2023</b>
+<p align="right"><b>Version 1.7 </b><br>
+<p align="right">30 Oktober 2023</b>
 <p align="center">
-<img src="https://raw.githubusercontent.com/" width="250" height="250"/ >
-</p>
 
-<p align="center"><b>Data Absensi Smp 25 Pekanbaru <br>
+
+<p align="right"><b>Data Absensi Smp 25 Pekanbaru <br>
 </b>
-<p align="center">Kelompok 9 <br>
+<p align="right">Kelompok 9 <br>
  Reza Oktafian            (2157301079)<br>
  Pendawa Maulana    (2257301110)<br>
  Ramadhan Pasaribu       (2257301111)<br><br><br>
 
-<p align="center"><b>Jurusan Sistem Informasi</b><br>
-<p align="center"><b>Politeknik Negeri Caltex Riau</b>
-<p align="center"><b>2023</b>
+<p align="right"><b>Jurusan Sistem Informasi</b><br>
+<p align="right"><b>Politeknik Negeri Caltex Riau</b>
+<p align="right"><b>2023</b>
 </p>
 </body>
 </html>
@@ -93,14 +92,14 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 | ![enter image description here](https://raw.githubusercontent.com/) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman agama dapat menginputkan data agama penduduk|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman warga dapat menginputkan data warga|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kelahiran.png) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
+| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
+![enter image description here](https://raw.githubusercontent.com/)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Data Absensi Siswa Smp 25 Pekanbaru antara lain :
 
@@ -141,14 +140,14 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://raw.githubusercontent.com/)
    
-**2.2.1 Kepala Desa Login**
+**2.2.1 Kepala Sekolah Login**
 
 Use Case: Login
 
 Diagram : 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
+![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Kepala Sekolah melakukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin untuk di dibuatkan akunnya.
@@ -161,12 +160,12 @@ Deskripsi langkah-langkah
 Xref: Bagian 3.2.1, Login Kepala Sekolah
    
 
-**2.2.2 Kepala sekolah melihat laporan kependudukan**
+**2.2.2 Kepala sekolah melihat laporan data siswa**
 
 Use Case: View laporan siswa
 
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Kepala sekolah dapat melihat laporan siswa secara bulanan di data siswa.
@@ -182,7 +181,7 @@ Xref: Bagian 3.2.2, View laporan siswa
 Use Case: Login
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
@@ -199,7 +198,7 @@ Xref: Bagian 3.2.3, Login admin
 Use Case: Input data siswa
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
+![](https://raw.githubusercontent.com/)
       
 Deskripsi Singkat
 Admin melakukan input data siswa dan sistem menyimpan data pada database.
@@ -211,12 +210,12 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.4, Input data siswa
 
-**2.2.5 Admin melihat data kependudukan**
+**2.2.5 Admin melihat data siswa**
 
-Use Case: View data kependudukan
+Use Case: View data siswa
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
+![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Admin dapat melihat data kependudukan setelah di inputkan.
@@ -234,7 +233,7 @@ Xref: Bagian 3.2.5, View data kependudukan
 Use Case: Laporan
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
+![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
@@ -251,7 +250,7 @@ Xref: Bagian 3.2.6, Cetak Laporan
 Use Case: Mengelola user
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
 Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
@@ -295,36 +294,36 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
+Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username guru dan kepala sekolah smp 25 pekanbaru. Setelah login berhasil kepala sekolah dapat melihat grafik data absensi siswa dan laporan siswa smp 25 pekanbaru di aplikasi tersebut.
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Kepala desa Login**
+**3.2.1 Kepala sekolah Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala desa |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Xref | Bagian 2.2.1, Login Kepala sekolah |
+| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru|
 | Precondition | Halaman login |
-| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1. Kepala sekolah mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
 | Exception Push | Username dan password salah |
       
-**3.2.2 Kepala desa melihat laporan kependudukan**
+**3.2.2 Kepala sekolah melihat laporan data siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.2, View laporan kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman grafik kependudukan |
-| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
+| Nama Fungsi | View laporan data siswa |
+| Xref | Bagian 2.2.2, View laporan data siswa |
+| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru|
+| Precondition | Membuka halaman grafik data siswa |
+| Basic Path | 1. Kepala sekolah mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala sekolah memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat laporan kependudukan |
+| Post Condition | Kepala sekolah melihat laporan data siswa |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.3 Admin login**
@@ -333,24 +332,24 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru |
 | Precondition | Halaman login admin |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Post Condition | Admin berhasil login dan mengakses aplikasi Data Absensi Siswa Smp 25 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data kependudukan**
+**3.2.4 Admin input data siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.4, Input data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Nama Fungsi | Input data siswa |
+| Xref | Bagian 2.2.4, Input data siswa |
+| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru |
 | Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | 1. Admin melakukan input data Nama Siswa, Nisn, Alfa, Hadir dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data kependudukan |
+| Post Condition | Halaman form input data absensi siswa |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.5 Admin melihat data kependudukan**
