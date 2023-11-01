@@ -79,7 +79,7 @@ Pada sistem informasi data absensi siswa ini akan menampilkan grafik data absens
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/)
+![reza](https://github.com/rezaoktafian/Project-framework/assets/149589325/cc72e38c-ae97-4608-aafd-2d221f0facbf)
 
 Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, admin dan kepala sekolah. Kepala sekolah mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala sekolah.
 
@@ -89,8 +89,8 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://raw.githubusercontent.com/) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
-| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman agama dapat menginputkan data agama penduduk|
+| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman login admin diminta untuk mengisi username dan password.| [Dashboard]![Rezaaaaaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/314c9092-259a-4974-a193-36d1b1d65f75) Dashboard|
+| ![enter image description here](https://raw.githubusercontent.com/) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| [Absensi Siswa]![rezaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/5a4dc411-39c0-4d62-adae-976d32cc2965) Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman warga dapat menginputkan data warga|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
 | ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://raw.githubusercontent.com/) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
