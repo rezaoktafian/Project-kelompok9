@@ -89,13 +89,16 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 
 |  |  |
 |--|--|
-| [LOGIN]![rezz](https://github.com/rezaoktafian/Project-framework/assets/149589325/7e4dad93-cc28-4332-ac68-dcf025796fce) Pada halaman login admin diminta untuk mengisi username dan password.| [Dashboard]![Rezaaaaaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/314c9092-259a-4974-a193-36d1b1d65f75) Dashboard|
-| [Absensi Siswa]![rezaa](https://github.com/rezaoktafian/Project-framework/assets/149589325/5a4dc411-39c0-4d62-adae-976d32cc2965) Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
-| [D]![rezz](https://github.com/rezaoktafian/Project-framework/assets/149589325/7e4dad93-cc28-4332-ac68-dcf025796fce) Pada Halaman dasboard menginputkan data absensi |
+| [LOGIN]![Screenshot 2023-11-08 212320](https://github.com/rezaoktafian/Project-framework/assets/149589325/18e13871-a2bf-4402-870f-3f6d51359af6) Pada halaman login admin diminta untuk mengisi username dan password.| 
+|[Dashboard]!![Screenshot 2023-11-08 212453](https://github.com/rezaoktafian/Project-framework/assets/149589325/3eba0c62-d78b-487b-92f8-c3a361bcc951) Dashboard|
+| [Absensi Siswa]![Screenshot 2023-11-08 212712](https://github.com/rezaoktafian/Project-framework/assets/149589325/79b9620d-dc86-4031-a4b0-0d451eb7dab3)Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
+|.[Data Siswa]![Screenshot 2023-11-08 212843](https://github.com/rezaoktafian/Project-framework/assets/149589325/5ce05d9b-cc3a-416a-b6b8-0a55d274c4e4)
+|
+|[Laporan]![Screenshot 2023-11-08 213442](https://github.com/rezaoktafian/Project-framework/assets/149589325/1fdf56ec-07c6-43a3-8f1e-e520e39f1d68)
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/)
+![pp](https://github.com/rezaoktafian/Project-framework/assets/149589325/39a99638-5038-47a6-8553-5e4dbc1c8ba3)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Data Absensi Siswa Smp 25 Pekanbaru antara lain :
 
@@ -348,17 +351,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data absensi siswa |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data kependudukan**
+**3.2.5 Admin melihat data Absensi Siswa**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Nama Fungsi | View data Absensi Siswa |
+| Xref | Bagian 2.2.5, View data Absensi Siswa |
+| Trigger | Membuka Data Absensi Siswa Smp 25 Pekanbaru |
 | Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Basic Path | 1. Sistem akan menampilkan data Absensi Siswa Smp 25 Pekanbaru. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data absensi siswa  <br>4. Admin  mengedit data absensi yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
+| Post Condition | Halaman data absensi |
 | Exception Push | Tidak ada koneksi |
    
 **3.2.6 Cetak Laporan**
@@ -367,7 +370,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Laporan |
 | Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Trigger | Membuka Data Absensi Siswa Smp 25 Pekanbaru |
 | Precondition | halaman utama admin |
 | Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
 | Alternative | Tidak ada |
@@ -380,7 +383,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Mengelola user |
 | Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
+| Trigger | Membuka Data Absensi Siswa Smp 25 Pekanbaru | 
 | Precondition | halaman utama admin |
 | Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
@@ -402,137 +405,36 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Password | varchar | berisikan password untuk login admin dan user |
 | level | varchar | untuk membedakan level saat login antara admin dan user
 
-**Tabel Warga**
+**Tabel Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| NIK | varchar | nomer kependudukan|
-| Nama | varchar | nomer kependudukan|
+| NISN | varchar | nomer induk siswa negeri |
+| Nama | varchar | nomer induk siswa negri|
 | jns_kelamin | varchar | Identifikasi jenis kelamin|
-| Tgl_lahir | date | tanggal lahir peserta |
+| Tgl_lahir | date | tanggal lahir siswa |
 | Agama | varchar | Identifikasi agama |
 
-**Tabel Pegawai**
+**Tabel Guru**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pegawai| int | Nomer auto increment Id_bioadmin|
+| Id_guru| int | Nomer auto increment Id_bioadmin|
 | Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| nik| varchar | nik admin|
+| nik| varchar | nik guru|
 | jabatan | varchar | mendefinisikan level user |
 | tgl_masuk | date | awal jabatan|
 | tgl_keluar | date | akhir jabatan|
 
-**Tabel Kelahiran**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kelahiran| int | Nomer auto increment Id_kelahiran|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_lahir| date | tanggal lahir anak |
-| jns_kelamin| varchar | jenis kelamin anak|
-| ayah | varchar | nama ayah|
-| ibu | varchar | nama ibu|
-| tmp_lahir| varchar | tempat lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
-
-**Tabel Kematian**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kematian| int | Nomer auto increment Id_kematian|
-| Id_warga| int | foreignt key tabel warga |
-| tmp_kematian| varchar | tempat lahir anak |
-| tgl_kematian| date | tanggal lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
-
-**Tabel Pekerjaan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
-| Id_warga| int | foreignt key tabel warga |
-| pekerjaan| varchar | pekerjaan masyarakat  |
-| tgl_input | date | tanggal input pekerjaan |
-
-**Tabel Pendidikan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pendidikan| int | Nomer auto increment Id_pendidikan|
-| Id_warga| int | foreignt key tabel warga |
-| pendidikan| varchar | pendidikan masyarakat  |
-| tgl_masuk | date | tanggal masuk pendidikan |
-
-**Tabel ktp**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_ktp| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_ktp| varchar | Identifikasi memiliki atau belum memiliki ktp |
-| masa_berlaku | date | tanggal berlaku ktp |
-
-**Tabel kk**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kk| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| kepala_keluarga| varchar | nama kepala keluarga |
-| no_kk | varchar | nomor kk |
-
-**Tabel pindah**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pindah| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_pindah | date | tanggal akan pindah |
-| ket | varchar | alamat pindah |
-
-**Tabel datang**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_datang| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_datang | date | tanggal kedatangan |
-| ket | varchar | alamat sebelum datang |
-
-**Tabel pilih**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pilih| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_pilih | varchar | hak pilih |
-
-**Tabel kawin**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kawin| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_kawin | varchar | status warga |
 
 **Tabel Laporan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| laporan | varchar | berisi laporan kependudukan |
+| Id_siswa| int | foreignt key tabel siswa |
+| laporan | varchar | berisi laporan data absensi |
 
-**Tabel Agama**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_agama| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| agama| varchar | berisi agama penduduk |
 
 
 
