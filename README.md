@@ -396,7 +396,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
+![WhatsApp Image 2023-11-09 at 01 48 52](https://github.com/rezaoktafian/Project-framework/assets/149589325/8dc169d2-54eb-4cbe-8ef4-73d3b67663c4)
 
 **Tabel User**
 
