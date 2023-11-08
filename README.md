@@ -89,12 +89,12 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 
 |  |  |
 |--|--|
-| [LOGIN]![Screenshot 2023-11-08 212320](https://github.com/rezaoktafian/Project-framework/assets/149589325/18e13871-a2bf-4402-870f-3f6d51359af6) Pada halaman login admin diminta untuk mengisi username dan password.| 
-|[Dashboard]!![Screenshot 2023-11-08 212453](https://github.com/rezaoktafian/Project-framework/assets/149589325/3eba0c62-d78b-487b-92f8-c3a361bcc951) Dashboard|
-| [Absensi Siswa]![Screenshot 2023-11-08 212712](https://github.com/rezaoktafian/Project-framework/assets/149589325/79b9620d-dc86-4031-a4b0-0d451eb7dab3)Pada Halaman Absensi dapat menginputkan Data Absensi Siswa|
-|.[Data Siswa]![Screenshot 2023-11-08 212843](https://github.com/rezaoktafian/Project-framework/assets/149589325/5ce05d9b-cc3a-416a-b6b8-0a55d274c4e4)
+|![Screenshot 2023-11-08 212320](https://github.com/rezaoktafian/Project-framework/assets/149589325/18e13871-a2bf-4402-870f-3f6d51359af6)| 
+|![Screenshot 2023-11-08 212453](https://github.com/rezaoktafian/Project-framework/assets/149589325/3eba0c62-d78b-487b-92f8-c3a361bcc951)|
+|![Screenshot 2023-11-08 212712](https://github.com/rezaoktafian/Project-framework/assets/149589325/79b9620d-dc86-4031-a4b0-0d451eb7dab3)|
+|.![Screenshot 2023-11-08 212843](https://github.com/rezaoktafian/Project-framework/assets/149589325/5ce05d9b-cc3a-416a-b6b8-0a55d274c4e4)
 |
-|[Laporan]![Screenshot 2023-11-08 213442](https://github.com/rezaoktafian/Project-framework/assets/149589325/1fdf56ec-07c6-43a3-8f1e-e520e39f1d68)
+|![Screenshot 2023-11-08 213442](https://github.com/rezaoktafian/Project-framework/assets/149589325/1fdf56ec-07c6-43a3-8f1e-e520e39f1d68)
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -146,7 +146,8 @@ Tidak ada
 Use Case: Login
 
 Diagram : 
-![](https://raw.githubusercontent.com/)
+
+![vvv](https://github.com/rezaoktafian/Project-framework/assets/149589325/0a3193ea-accc-45d8-9448-5d5ab145fa73)
 
 Deskripsi Singkat
 Kepala Sekolah melakukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin untuk di dibuatkan akunnya.
@@ -164,7 +165,7 @@ Xref: Bagian 3.2.1, Login Kepala Sekolah
 Use Case: View laporan siswa
 
 Diagram: 
-![](https://raw.githubusercontent.com/)
+![vvv-Page-2](https://github.com/rezaoktafian/Project-framework/assets/149589325/f126e8f6-62ad-4c2a-887b-4d1c54bad235)
 
 Deskripsi Singkat
 Kepala sekolah dapat melihat laporan siswa secara bulanan di data siswa.
@@ -175,24 +176,24 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.2, View laporan siswa
 
-**2.2.3 Admin login**
+**2.2.3 Guru login**
 
 Use Case: Login
 
 Diagram :
-![](https://raw.githubusercontent.com/)
+![guru](https://github.com/rezaoktafian/Project-framework/assets/149589325/863bf043-d7b5-4443-84ba-82509c0819ba)
 
 Deskripsi Singkat
 Admin melakukan login dengan memasukan username password.
 Deskripsi Langkah-langkah
-1. Admin melakukan login dengan username dan password
+1. Guru melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Bila sukses sistem akan mengarahkan ke halaman beranda
 4. Bila gagal sistem akan menampilkan peringatan
 
-Xref: Bagian 3.2.3, Login admin
+Xref: Bagian 3.2.3, Login Guru
       
-**2.2.4 Admin input data siswa**
+**2.2.4 Guru input data siswa**
 
 Use Case: Input data siswa
 
@@ -202,30 +203,31 @@ Diagram:
 Deskripsi Singkat
 Admin melakukan input data siswa dan sistem menyimpan data pada database.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data siswa, Nisn, dan lain-lain.
-2. Admin mengklik tombol simpan.
+1. Guru melakukan input data siswa, Nisn, dan lain-lain.
+2. Guru mengklik tombol simpan.
 3. Sistem menyimpan data siswa.
 4. Bila data sudah ada sistem akan menampilkan peringatan
 
 Xref: Bagian 3.2.4, Input data siswa
 
-**2.2.5 Admin melihat data siswa**
+**2.2.5 Guru melihat data siswa**
 
 Use Case: View data siswa
 
 Diagram:
-![](https://raw.githubusercontent.com/)
+![data](https://github.com/rezaoktafian/Project-framework/assets/149589325/5d7a869b-2d58-4895-95e4-a5505c6abb55)
+
 
 Deskripsi Singkat
 Admin dapat melihat data kependudukan setelah di inputkan.
 Deskripsi Langkah-langkah
-1. Sistem akan menampilkan data kependudukan desa Lohbener.
+1. Sistem akan menampilkan data Absensi Siswa.
 2. Admin melihat data dan dapat mengedit atau menghapusnya.
-3. Sistem menampilkan edit data kependudukan
-4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
+3. Sistem menampilkan edit data siswa
+4. Guru  mengedit data siswa yang baru atau yang sudah ada
 5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
 
-Xref: Bagian 3.2.5, View data kependudukan
+Xref: Bagian 3.2.5, View data siswa
    
 **2.2.6 Generate Laporan**
 
@@ -235,21 +237,21 @@ Diagram:
 ![](https://raw.githubusercontent.com/)
 
 Deskripsi Singkat
-Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
+Sistem akan mengirimkan data absensi siswa dan yang lainnya ke fungsi laporan
 Deskripsi Langkah-langkah
-1. Sistem menampilkan laporan kependudukan
+1. Sistem menampilkan laporan absensi siswa
 2. Admin memilih combobox tersebut dan klik tombol cetak
 3. Sistem akan menampilkan hasil laporan.
 4. Admin mencetak laporan 
 
 Xref: Bagian 3.2.6, Cetak Laporan
 
-**2.2.7 Admin mengelola user**
+**2.2.7 Guru mengelola Siswa**
 
-Use Case: Mengelola user
+Use Case: Mengelola Siswa
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/)
+
 
 Deskripsi Singkat
 Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
@@ -325,7 +327,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Kepala sekolah melihat laporan data siswa |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.3 Admin login**
+**3.2.3 Guru login**
 
 |  |  |
 |--|--|
@@ -338,7 +340,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses aplikasi Data Absensi Siswa Smp 25 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data siswa**
+**3.2.4 Guru input data siswa**
 
 |  |  |
 |--|--|
@@ -351,7 +353,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data absensi siswa |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data Absensi Siswa**
+**3.2.5 Guru melihat data Absensi Siswa**
 
 |  |  |
 |--|--|
@@ -377,7 +379,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
-**3.2.7  Admin mengelola user**
+**3.2.7  Guru mengelola siswa**
 
 |  |  |
 |--|--|
