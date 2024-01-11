@@ -89,12 +89,12 @@ Sistem aplikasi Data Absensi Siswa Smp 25 Pekanbaru memiliki 3 user yaitu guru, 
 
 |  |  |
 |--|--|
-|![Screenshot 2023-11-08 212320](https://github.com/rezaoktafian/Project-framework/assets/149589325/18e13871-a2bf-4402-870f-3f6d51359af6)| 
-|![Screenshot 2023-11-08 212453](https://github.com/rezaoktafian/Project-framework/assets/149589325/3eba0c62-d78b-487b-92f8-c3a361bcc951)|
-|![Screenshot 2023-11-08 212712](https://github.com/rezaoktafian/Project-framework/assets/149589325/79b9620d-dc86-4031-a4b0-0d451eb7dab3)|
-|.![Screenshot 2023-11-08 212843](https://github.com/rezaoktafian/Project-framework/assets/149589325/5ce05d9b-cc3a-416a-b6b8-0a55d274c4e4)
+|!<img width="926" alt="Screenshot 2024-01-11 234706" src="https://github.com/rezaoktafian/Project-framework/assets/149589325/5f1a1537-a80c-4fc7-9bce-e4e235e0af17">| 
+|![Screenshot 2024-01-11 234741](https://github.com/rezaoktafian/Project-framework/assets/149589325/f3a7826b-0cbf-4cea-8b45-d61864fb9b77)
 |
-|![Screenshot 2023-11-08 213442](https://github.com/rezaoktafian/Project-framework/assets/149589325/1fdf56ec-07c6-43a3-8f1e-e520e39f1d68)
+|![Screenshot 2024-01-11 234909](https://github.com/rezaoktafian/Project-framework/assets/149589325/7376cc1f-4758-4028-82eb-0b49f1d247a9)
+|![Screenshot 2024-01-11 234934](https://github.com/rezaoktafian/Project-framework/assets/149589325/c086f8fe-4a98-41e4-b761-37595ec715c6)
+|![Screenshot 2024-01-11 234949](https://github.com/rezaoktafian/Project-framework/assets/149589325/930eed14-5e44-4b0a-b918-d0cc36a3f51f)
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -140,43 +140,8 @@ Tidak ada
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
 ![](https://raw.githubusercontent.com/)
-   
-**2.2.1 Kepala Sekolah Login**
 
-Use Case: Login
-
-Diagram : 
-
-![vvv](https://github.com/rezaoktafian/Project-framework/assets/149589325/0a3193ea-accc-45d8-9448-5d5ab145fa73)
-
-Deskripsi Singkat
-Kepala Sekolah melakukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin untuk di dibuatkan akunnya.
-Deskripsi langkah-langkah
-1. Kepala Sekolah melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
-
-Xref: Bagian 3.2.1, Login Kepala Sekolah
-   
-
-**2.2.2 Kepala sekolah melihat laporan data siswa**
-
-Use Case: View laporan siswa
-
-Diagram: 
-![vvv-Page-2](https://github.com/rezaoktafian/Project-framework/assets/149589325/f126e8f6-62ad-4c2a-887b-4d1c54bad235)
-
-Deskripsi Singkat
-Kepala sekolah dapat melihat laporan siswa secara bulanan di data siswa.
-Deskripsi Langkah-langkah
-1. Kepala sekolah mengklik navbar laporan
-2. Kepala sekolah memilih combobox tersebut dan klik tombol cetak laporan
-3. Sistem akan menampilkan hasil laporan.
-
-Xref: Bagian 3.2.2, View laporan siswa
-
-**2.2.3 Guru login**
+**2.2.1 Guru login**
 
 Use Case: Login
 
@@ -193,7 +158,7 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.3, Login Guru
       
-**2.2.4 Guru input data siswa**
+**2.2.2 Guru input data siswa**
 
 Use Case: Input data siswa
 
@@ -210,7 +175,7 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.4, Input data siswa
 
-**2.2.5 Guru melihat data siswa**
+**2.2.3 Guru melihat data siswa**
 
 Use Case: View data siswa
 
@@ -229,7 +194,7 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.5, View data siswa
    
-**2.2.6 Generate Laporan**
+**2.2.4 Generate Laporan**
 
 Use Case: Laporan
 
@@ -246,7 +211,7 @@ Deskripsi Langkah-langkah
 
 Xref: Bagian 3.2.6, Cetak Laporan
 
-**2.2.7 Guru mengelola Siswa**
+**2.2.5 Guru mengelola Siswa**
 
 Use Case: Mengelola Siswa
 
@@ -271,7 +236,7 @@ Xref: Bagian 3.2.7, Mengelola user
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin, sekdes dan kepala desa ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin dan Guru ) 
  
 2.4   Karakteristik pengguna
 ----------
@@ -300,34 +265,7 @@ Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan ol
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
-      
-**3.2.1 Kepala sekolah Login**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala sekolah |
-| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru|
-| Precondition | Halaman login |
-| Basic Path | 1. Kepala sekolah mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
-| Alternative | Tidak ada |
-| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
-| Exception Push | Username dan password salah |
-      
-**3.2.2 Kepala sekolah melihat laporan data siswa**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View laporan data siswa |
-| Xref | Bagian 2.2.2, View laporan data siswa |
-| Trigger | Membuka aplikasi Data Absensi Siswa Smp 25 Pekanbaru|
-| Precondition | Membuka halaman grafik data siswa |
-| Basic Path | 1. Kepala sekolah mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala sekolah memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
-| Alternative | Tidak ada |
-| Post Condition | Kepala sekolah melihat laporan data siswa |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.3 Guru login**
+**3.2.1 Guru login**
 
 |  |  |
 |--|--|
@@ -340,7 +278,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses aplikasi Data Absensi Siswa Smp 25 Pekanbaru |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Guru input data siswa**
+**3.2.2 Guru input data siswa**
 
 |  |  |
 |--|--|
@@ -353,7 +291,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman form input data absensi siswa |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Guru melihat data Absensi Siswa**
+**3.2.3 Guru melihat data Absensi Siswa**
 
 |  |  |
 |--|--|
@@ -366,7 +304,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman data absensi |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 Cetak Laporan**
+**3.2.4 Cetak Laporan**
 
 |  |  |
 |--|--|
@@ -379,7 +317,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Halaman Laporan |
 | Exception Push | Tidak ada koneksi, data belum diinput |
 
-**3.2.7  Guru mengelola siswa**
+**3.2.5  Guru mengelola siswa**
 
 |  |  |
 |--|--|
@@ -398,14 +336,13 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 ![WhatsApp Image 2023-11-09 at 01 48 52](https://github.com/rezaoktafian/Project-framework/assets/149589325/8dc169d2-54eb-4cbe-8ef4-73d3b67663c4)
 
-**Tabel User**
+**Tabel Guru**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
 | Id_user| int | Nomer auto increment Id_user|
-| Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
+| Username | varchar | berisikan email untuk akses login user dan username untuk akses admin |
 | Password | varchar | berisikan password untuk login admin dan user |
-| level | varchar | untuk membedakan level saat login antara admin dan user
 
 **Tabel Siswa**
 
@@ -415,19 +352,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | Nama | varchar | nomer induk siswa negri|
 | jns_kelamin | varchar | Identifikasi jenis kelamin|
 | Tgl_lahir | date | tanggal lahir siswa |
-| Agama | varchar | Identifikasi agama |
-
-**Tabel Guru**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_guru| int | Nomer auto increment Id_bioadmin|
-| Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| nik| varchar | nik guru|
-| jabatan | varchar | mendefinisikan level user |
-| tgl_masuk | date | awal jabatan|
-| tgl_keluar | date | akhir jabatan|
-
+| Kelas | varchar | Identifikasi Kelas |
 
 **Tabel Laporan**
 
