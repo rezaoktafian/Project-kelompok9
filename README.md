@@ -325,7 +325,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.7, Mengelola user |
 | Trigger | Membuka Data Absensi Siswa Smp 25 Pekanbaru | 
 | Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
+| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan Data Siswa<br>3. Sistem akan menyimpan data user ke database.  |
 | Post Condition | Halaman user |
 | Exception Push | Tidak ada koneksi, data belum diinput |
    
